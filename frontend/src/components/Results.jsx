@@ -27,12 +27,9 @@ export class Results extends Component {
             })
           })
       );
-  
-      
           
       ;
     }
-  
     render() {
       return (
         <div>

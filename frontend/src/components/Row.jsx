@@ -11,7 +11,7 @@ export const Row = (commit) => (
       <span>{commit.name}</span>
     </td>
     <td className={table_style}>
-      <span>{commit.email}</span>
+      <span>{commit.reviewer}</span>
     </td>
   </tr>
 );
