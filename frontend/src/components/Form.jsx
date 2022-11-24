@@ -1,5 +1,5 @@
 
-function Form(){
+ export default function Form(){
     return(
     <div className="grid p-10 space-y-10 border-green-300 border-2 shadow-lg place-items-center rounded-lg w-fit ">
         <div className="text-green-300 text-center text-2xl"> Enter url</div>
@@ -16,4 +16,3 @@ function Form(){
 
 }
 
-export default Form;
