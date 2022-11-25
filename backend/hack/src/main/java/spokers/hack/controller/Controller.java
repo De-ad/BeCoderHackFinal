@@ -7,11 +7,12 @@ import java.io.*;
 @RestController
 @RequestMapping("/hello")
 public class Controller {
-    File file = new File("/Users/dead./VisualStudioCodeProjects/hack/backend/hack/file.json");
+    File file = new File("C:\\Users\\erikr\\Desktop\\backend\\hack\\backend\\hack\\file.json");
 
     @GetMapping
-    public String getCommits(@RequestParam(value = "url") String value) throws IOException {
+    public String getCommits(@RequestParam(value = "url", defaultValue = "") String value) throws IOException {
 //        python here
+        System.out.println(value);
         try {
             BufferedReader breader = new BufferedReader(new FileReader(file));
             String res = "";
