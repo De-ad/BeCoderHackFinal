@@ -26,13 +26,13 @@ public class Runner {
         //tempa.add(new FileInfo("eeee", 3, 2, 1));
         //tempa.add(new FileInfo("ttt", 5, 1, 4));
 
-        Process p = Runtime.getRuntime().exec("python main.py " + url);
+        Process p = Runtime.getRuntime().exec("python3 main.py " + url);
         BufferedReader stdInput = new BufferedReader(new
                 InputStreamReader(p.getInputStream()));
         String s;
         while((s = stdInput.readLine()) != null) {
             //System.out.println(s);
-            String[] lineArr = s.split(" ");
+            String[] lineArr = s.split("#");
             String username = lineArr[0];
             String filename = lineArr[1];
             boolean fail = !Objects.equals(lineArr[2], "False");
