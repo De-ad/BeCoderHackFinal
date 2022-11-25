@@ -20,9 +20,6 @@ public class Controller {
     @GetMapping
     public String getCommits(@RequestParam(value = "url", defaultValue = "") String value) throws IOException {
 
-//        value это юрл котрый принимает парсер
-//        он парсит данные. проверяет по критериям коммиты. результат пишет в файл.цсв этот файл принимается на фронте и
-//        и выводится в таблицу пример файла есть в телеге. нужно поменять путь сверху на относительный чтбы работало норм
         System.out.println(value);
         ArrayList<RetList> ret = Runner.run(value);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
