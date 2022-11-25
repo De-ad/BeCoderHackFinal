@@ -12,7 +12,7 @@ public class Task2 {
 
         ArrayList<String> highPriorityFiles = new ArrayList<>();
         for(FileInfo fileInfo : listOfFiles) {
-            if(fileInfo.getSuccessPercentage() < 1) {
+            if(fileInfo.getSuccessPercentage() < 10) {
                 highPriorityFiles.add(fileInfo.getFilename());
             }
         }
