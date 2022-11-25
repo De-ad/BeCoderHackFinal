@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LoadButton = (props) => (
   <button
-    className=' bg-green-400 text-white p-1 m-1 rounded-lg'
+  className="border-2 rounded-full p-1 px-4 shadow-lg text-green-300 border-green-300"
     onClick={props.onLoad}
   >
     {props.title}

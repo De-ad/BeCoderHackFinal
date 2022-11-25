@@ -1,4 +1,7 @@
+ import { LoadButton } from "./LoadButton";
+import { Results } from "./Results";
  export default function Form(){
+    
     return(
     <div className="grid p-10 space-y-10 border-green-300 border-2 shadow-lg place-items-center rounded-lg w-fit ">
         <div className="text-green-300 text-center text-2xl"> Enter url</div>
@@ -9,7 +12,8 @@
                 placeholder="git repo url"
                 className="w-full rounded text-center"
                 />
-                <button className="border-2 rounded-full p-1 px-4 shadow-lg text-green-300 border-green-300">Analyze</button>
+                {/* <button className="border-2 rounded-full p-1 px-4 shadow-lg text-green-300 border-green-300">Analyze</button> */}
+                
             </form>
         </div> 
     </div>);

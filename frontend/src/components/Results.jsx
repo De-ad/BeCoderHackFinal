@@ -33,11 +33,11 @@ export class Results extends Component {
     render() {
       return (
         <div>
-          <LoadButton
+          <div className="flex items-center justify-center pb-8"><LoadButton
             onLoad={this.onLoadTables}
-            title="Load tables"
+            title="Analyze"
+          /></div>
           
-          />
           <div className="tables">
             <CommitTable commits={this.state.commits} />
           </div>
