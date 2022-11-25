@@ -4,6 +4,14 @@
 
 Веб-приложение на React + Spring + Tailwind
 
+Простое взаимодействие через интерфейс. 
+![photoone](https://github.com/De-ad/BeCoderHackFinal/blob/main/public/photoone.png)
+
+Требуется ввести ссылку на репозиторий
+![phototwo](https://github.com/De-ad/BeCoderHackFinal/blob/main/public/phototwo.png)
+
+Результат анализа выводится в виде таблицы
+![photothree](https://github.com/De-ad/BeCoderHackFinal/blob/main/public/photothree.png)
 
 ## Задание 
 
