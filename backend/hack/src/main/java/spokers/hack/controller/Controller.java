@@ -7,7 +7,7 @@ import java.io.*;
 @RestController
 @RequestMapping("/hello")
 public class Controller {
-    File file = new File("C:\\Users\\erikr\\Desktop\\backend\\hack\\backend\\hack\\file.json");
+    File file = new File("/Users/dead./VisualStudioCodeProjects/hack/backend/hack/file.json");
 
     @GetMapping
     public String getCommits(@RequestParam(value = "url", defaultValue = "") String value) throws IOException {
